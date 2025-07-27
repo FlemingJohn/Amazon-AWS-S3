@@ -33,11 +33,17 @@
     </section>
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email me at <a href="mailto:example@example.com">example@example.com</a></p>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </section>
   </main>
   <footer>
     <p>&copy; 2024 My Static Website. All rights reserved.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
