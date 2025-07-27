@@ -86,6 +86,27 @@ section h2 {
   cursor: pointer;
 }
 
+/* Portfolio Section Styles */
+#portfolio {
+  padding: 20px;
+}
+
+.portfolio-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
 /* Footer Styles */
 footer {
   background: #333;
@@ -95,4 +116,10 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+}
+
+.social-media a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
 }
